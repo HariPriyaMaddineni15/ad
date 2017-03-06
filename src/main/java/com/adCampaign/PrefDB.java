@@ -53,6 +53,7 @@ public class PrefDB {
 					adCampaign = campObj;
 					break;
 				} else {
+					System.out.println("timeout for this partner ID");
 					adCampaign = null;
 					break;
 				}
